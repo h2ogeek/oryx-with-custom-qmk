@@ -114,4 +114,17 @@ void housekeeping_task_user(void) {
   achordion_task();
 }
 
-
+// Keycodes Documentation: https://docs.qmk.fm/keycodes
+// QMK: Custom shift keys Documentation: https://getreuer.info/posts/keyboards/custom-shift-keys/index.html
+const custom_shift_key_t custom_shift_keys[] = {
+  {KC_EXLM, KC_1}, // Shift ! is 1
+  {KC_AT, KC_2}, // Shift @ is 2
+  {KC_HASH , KC_3}, // Shift # is 3
+  {KC_DOLLAR , KC_4}, // Shift $ is 4
+  {KC_PERCENT , KC_5}, // Shift % is 5
+  {KC_CIRCUMFLE, KC_6}, // Shift ^ is 6
+  {KC_AMPERSAND, KC_7}, // Shift & is 7
+  {KC_ASTERISK, KC_8}, // Shift * is 8
+  {KC_LEFT_PAREN, KC_9}, // Shift ( is 9
+  {KC_RIGHT_PAREN, KC_0}, // Shift ) is 0
+};
