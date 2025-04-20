@@ -17,7 +17,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   [0] = LAYOUT_voyager(
     KC_EXLM,        KC_AT,          KC_HASH,        KC_DLR,         KC_PERC,        KC_CIRC,                                        KC_AMPR,        KC_ASTR,        KC_LPRN,        KC_RPRN,        KC_LBRC,        KC_RBRC,        
     KC_EQUAL,       KC_QUOTE,       KC_COMMA,       KC_DOT,         KC_P,           KC_Y,                                           KC_F,           KC_G,           KC_C,           KC_R,           KC_L,           KC_SLASH,       
-    KC_DELETE,      MT(MOD_LGUI, KC_A),MT(MOD_RALT, KC_O),MT(MOD_LSFT, KC_E),MT(MOD_LCTL, KC_U),KC_I,                                           KC_D,           MT(MOD_RCTL, KC_H),MT(MOD_RSFT, KC_T),MT(MOD_RALT, KC_N),MT(MOD_RGUI, KC_S),KC_MINUS,       
+    KC_DELETE,      MT(MOD_LGUI, KC_A),MT(MOD_RALT, KC_O),MT(MOD_LSFT, KC_E),MT(MOD_LCTL, KC_U),ALL_T(KC_I),                                    ALL_T(KC_D),    MT(MOD_RCTL, KC_H),MT(MOD_RSFT, KC_T),MT(MOD_RALT, KC_N),MT(MOD_RGUI, KC_S),KC_MINUS,       
     KC_TAB,         KC_SCLN,        KC_Q,           KC_J,           KC_K,           KC_X,                                           KC_B,           KC_M,           KC_W,           KC_V,           KC_Z,           KC_BSLS,        
                                                     TD(DANCE_0),    LT(2,KC_ESCAPE),                                LT(4,KC_ENTER), LT(3,KC_SPACE)
   ),
